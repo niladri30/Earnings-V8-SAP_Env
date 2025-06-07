@@ -1,8 +1,0 @@
-#!/Users/I310202/Library/CloudStorage/OneDrive-SAPSE/SR@Work/2025/04.SCB/091.SCB_Project/Earnings-V8-Working/.venv/bin/python3.11
-# -*- coding: utf-8 -*-
-import re
-import sys
-from rsa.cli import encrypt
-if __name__ == '__main__':
-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
-    sys.exit(encrypt())
